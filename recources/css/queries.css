@@ -1,0 +1,270 @@
+
+@media only screen and (max-width: 1200px) {
+    .hero-header{
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row{padding: 0 2%}
+}
+
+@media only screen and (max-width: 1023px) {
+    html {
+        font-size: 16px;
+    }
+
+    nav-menus li {
+        margin-left: 5px;
+    }
+
+    .sec2 i {
+        text-align: left;
+    }
+
+    .app-install img {
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 135px;
+        height: 40px;
+    }
+
+    .sec4:last-child {
+        padding-top: 20px;
+        padding-left: 2%;
+    }
+
+    .sec4::before {
+        margin-top: 0px;
+    }
+
+    .nav-menus li {
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html {
+        font-size: 15px;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+
+    h1 {
+        font-size: 160% !important;
+    }
+
+    h2 {
+        font-size: 140% !important;
+    }
+
+    .row
+    .hero-header {
+        padding: 0 4%;
+    }
+
+    .col {
+        width: 100%;
+        margin: 0% 0% 4% 0%;
+    }
+
+    .steps div {
+        padding: 2px;
+        border: 1px solid rgba(230, 126, 34, 1.0);
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+    }
+
+    .steps {
+        margin-bottom: 20px;
+    }
+
+    .sec4:last-child {
+        padding-top: 10px;
+        padding-left: 0%;
+    }
+
+    h2::after {
+        width: 200px;
+        margin-top: 0px;
+        margin-top: 20px;
+    }
+
+    .sec2 i {
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .feature-desc {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .contact-form {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .button-div {
+        text-align: center;
+    }
+
+    #submit {
+        width: 60%;
+        padding: 7px;
+        height: 40px;
+
+    }
+
+    .per-meal {
+        text-align: center;
+    }
+
+    .per-month {
+        text-align: center;
+        font-weight: 300;
+    }
+
+    .sec6 div img {
+        float: none;
+    }
+
+    .sec4:first-child {
+        text-align: center;
+        padding-right: 0%;
+    }
+
+    .app-install img {
+        margin-top: 20px;
+        margin-left: 10%;
+    }
+
+    .sec6 p {
+        margin-bottom: 20px;
+    }
+    .nav-menus {
+        display: none;
+    }
+    .footer-social li {
+        margin: 5px 10%;
+    }
+
+    .footer-nav li {
+        margin: 5px 2%;
+    }
+
+    .mobile-button-menu {
+        display: inline-block;
+    }
+
+    .main-nav ul {
+        float: left !important;
+    }
+
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+    }
+
+    .logo-image {
+        margin: 30px 15% 5% 30px;
+    }
+
+    .sticky .logo-image-black{
+        height: 40px;
+        width: auto;
+        margin: 5px 0 5px 0;
+        display: inline-block;
+        float: left;
+    }
+    .sticky .nav-menus{
+        margin: 2% 10% auto 15%;
+    }
+    .sticky .nav-menus li a:link,
+    .sticky .nav-menus li a:visited {
+        color: #555555;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 5px 10px 10px 10px;
+        border: 0;
+    }
+
+    .sticky .nav-menus li a:hover,
+    .sticky .nav-menus li a:active{
+        border-bottom: none;
+    }
+    .sticky .nav-menus{
+        margin-top: 10px;
+        float: left;
+    }
+    .sticky .mobile-button-menu i{
+        font-size: 200%;
+        color: black;
+    }
+}
+
+
+
+@media only screen and (max-width: 480px) {
+    html {
+        font-size: 14px;
+    }
+
+    .app-install img {
+        margin-top: 10px;
+        margin-left: 0%;
+    }
+
+    h1 {
+        font-size: 150% !important;
+    }
+
+    h2 {
+        font-size: 130% !important;
+    }
+
+    .footer-nav li {
+        display: block !important;
+        float: none !important;
+        text-align: center;
+    }
+    .sec6 i {
+        text-align: center;
+    }
+    .sec2 p {
+        line-height: 150%;
+        font-size: 95%;
+        word-spacing: 1.5px;
+        letter-spacing: 0.5px;
+        margin-bottom: 10px;
+    }
+    /*.main-nav{*/
+        /*text-align: center;*/
+    /*}*/
+    .logo-image {
+        float: left;
+        height: 60px;
+        width: auto;
+        margin: 10px 5px auto 5px;
+    }
+    h1{
+        font-size: 140% !important;
+    }
+    .btn:link, .btn:visited {
+        padding: 5px 10px;
+        margin-left: 5px;
+    }
+    .main-nav ul {
+
+        margin-top: 10px;
+    }
+}
